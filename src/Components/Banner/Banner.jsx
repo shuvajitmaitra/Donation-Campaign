@@ -1,5 +1,14 @@
+import { useState } from "react";
+import PropTypes from "prop-types";
+
 // import background from "../../assets/background.jpg";
-const Banner = () => {
+const Banner = ({ setSearchText }) => {
+  const [text, setText] = useState(" ");
+
+  const handleSearch = (text) => {
+    setSearchText(text);
+  };
+
   return (
     // <div className="relative bg-white   	">
     //   <img src={background} className="" />
@@ -31,9 +40,17 @@ const Banner = () => {
               I Grow By Helping People In Need
             </h1>
           </div>
-          <div className="flex justify-center">
-            <input type="text" className=" rounded-l-lg" />
-            <button className="px-7 py-4 rounded-r-lg bg-[#FF444A]">
+          <div className="flex justify-center ">
+            <input
+              type="text"
+              value={text}
+              onChange={(event) => setText(event.target.value)}
+              className=" rounded-l-lg text-black"
+            />
+            <button
+              onClick={() => handleSearch(text)}
+              className="px-7 py-4 rounded-r-lg bg-[#FF444A]"
+            >
               Search
             </button>
           </div>
@@ -41,6 +58,10 @@ const Banner = () => {
       </div>
     </div>
   );
+};
+
+Banner.propTypes = {
+  setSearchText: PropTypes.func,
 };
 
 export default Banner;
