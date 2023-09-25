@@ -68,7 +68,7 @@
   
         "id": 8, 
         "category": "Education",
-        "title":"Technical Education for everyone",
+        "title":"Education for everyone",
         "image":" https://i.ibb.co/XsbZTKB/Education.png ",
         "background": "bg-[#FF444A26]",
         "color": "text-[#FF444A26]"
@@ -81,5 +81,32 @@
         "image":"  https://i.ibb.co/64pTQMz/9.png",
         "background": "red",
         "color": "text-[#FF444A26]"
+    },
+    {
+  
+        "id": 10, 
+        "category": "Health",
+        "title":"Clean water for everyone",
+        "image":"https://i.ibb.co/8Dg72LG/Health.png",
+        "background": "red",
+        "color": "text-[#0052FF]"
+    },
+    {
+  
+        "id": 11, 
+        "category": "Clothing",
+        "title":"Warm Clothing at Winter",
+        "image":" https://i.ibb.co/NZdCFzR/3.png",
+        "background": "red",
+        "color": "text-[#79C23F26]"
+    },
+    {
+  
+        "id": 12, 
+        "category": "Food",
+        "title":"Good Food for everyone",
+        "image":"  https://i.ibb.co/hDzpz4N/4.png",
+        "background": "red",
+        "color": "text-[#F87147]"
     }
 ]

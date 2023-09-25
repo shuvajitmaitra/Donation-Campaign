@@ -25,7 +25,7 @@ const Home = () => {
     <div>
       <div>
         <Banner setSearchText={setSearchText}></Banner>
-        <div className="grid grid-cols-4 gap-4 my-12">
+        <div className="max-w-screen-lg px-6 md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
           {info.map((card) => (
             <Card key={card.id} card={card}></Card>
           ))}
