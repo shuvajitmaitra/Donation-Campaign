@@ -19,8 +19,6 @@ const Home = () => {
     setInfo(filteredData);
   };
 
-  console.log(searchText);
-
   return (
     <div>
       <div>
