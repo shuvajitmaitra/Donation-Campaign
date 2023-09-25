@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
 
 const Navbar = () => {
@@ -8,9 +8,9 @@ const Navbar = () => {
         <img src={Logo} alt="" className="h-[72px]" />
       </div>
       <div className="flex gap-6">
-        <Link to={"/"}>Home</Link>
-        <Link to={"/donation"}>Donation</Link>
-        <Link to={"/statistic"}>Statistic</Link>
+        <NavLink to={"/"}>Home</NavLink>
+        <NavLink to={"/donation"}>Donation</NavLink>
+        <NavLink to={"/statistic"}>Statistic</NavLink>
       </div>
     </div>
   );

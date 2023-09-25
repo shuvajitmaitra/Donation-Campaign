@@ -7,3 +7,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.active {
+  font-weight: 700;
+  color: #ff444a;
+  text-decoration: underline;
+}

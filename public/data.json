@@ -1,21 +1,22 @@
 
 
-[{
+[       
+    {
   
-    "id": 1, 
-    "category": "Health",
-    "title":"Clean water for everyone",
-    "image":"  https://i.ibb.co/8Dg72LG/Health.png",
-    "background": "#0052FF26",
-    "color": "#0052FF"
-},
+        "id": 1, 
+        "category": "Health",
+        "title":"Clean water for everyone",
+        "image":"https://i.ibb.co/8Dg72LG/Health.png",
+        "background": "red",
+        "color": "text-[#0052FF]"
+    },
     {
         "id": 2,
-    "category": "Education",
-    "title":" Good education",
-        "image" : "https://i.ibb.co/48QmCmt/Rectangle-4287-1.png",
-        "background": "#FF444A26",
-        "color": "#FF444A26"
+        "category": "Education",
+        "title":" Good education",
+        "image":"https://i.ibb.co/XsbZTKB/Education.png ",
+        "background": "red",
+        "color": "text-[#FF444A26]"
         
     },
     {
@@ -23,9 +24,9 @@
         "id": 3, 
         "category": "Clothing",
         "title":"Use Clothing Drive",
-      "image":" https://i.ibb.co/NZdCFzR/3.png",
-      "background": "#79C23F26",
-      "color": "#79C23F26"
+        "image":" https://i.ibb.co/NZdCFzR/3.png",
+        "background": "red",
+        "color": "text-[#79C23F26]"
     },
     {
   
@@ -33,44 +34,44 @@
         "category": "Food",
         "title":"Better Food for Everyone",
         "image":"  https://i.ibb.co/hDzpz4N/4.png",
-        "background": "#F87147",
-        "color": "#F87147"
+        "background": "red",
+        "color": "text-[#F87147]"
     },
     {
   
         "id": 5, 
         "category": "Clothing",
         "title":"Warm Clothing at Winter",
-        "image":" https://i.ibb.co/CHgpZQM/Rectangle-4287.png",
-        "background": "#79C23F26",
-        "color": "#79C23F26"
+        "image":" https://i.ibb.co/NZdCFzR/3.png",
+        "background": "red",
+        "color": "text-[#79C23F26]"
     },
     {
   
         "id": 6, 
-        "category": "Education",
-        "title":"Technical Education for everyone",
-        "image":" https://i.ibb.co/XsbZTKB/Education.png ",
-        "background": "#FF444A26",
-        "color": "#FF444A26"
+        "category": "Food",
+        "title":"Good Food for everyone",
+        "image":"  https://i.ibb.co/hDzpz4N/4.png",
+        "background": "red",
+        "color": "text-[#F87147]"
     },
     {
   
         "id": 7, 
         "category": "Health",
         "title":"Clean water for everyone",
-        "image":"https://i.ibb.co/stC4MGY/Rectangle-4284.png",
-        "background": "#0052FF26",
-         "color": "#0052FF"
+        "image":"  https://i.ibb.co/8Dg72LG/Health.png",
+        "background": "bg-[#0052FF26]",
+         "color": "text-[#0052FF]"
     },
     {
   
         "id": 8, 
-        "category": "Food",
-        "title":"Good Food for everyone",
-        "image":" https://i.ibb.co/cLgvtkm/Rectangle-4287-2.png",
-        "background": "#F87147",
-        "color": "#F87147"
+        "category": "Education",
+        "title":"Technical Education for everyone",
+        "image":" https://i.ibb.co/XsbZTKB/Education.png ",
+        "background": "bg-[#FF444A26]",
+        "color": "text-[#FF444A26]"
     },
     {
   
@@ -78,7 +79,7 @@
         "category": "Education",
         "title":"Good Education",
         "image":"  https://i.ibb.co/64pTQMz/9.png",
-        "background": "#FF444A26",
-        "color": "#FF444A26"
+        "background": "red",
+        "color": "text-[#FF444A26]"
     }
 ]
