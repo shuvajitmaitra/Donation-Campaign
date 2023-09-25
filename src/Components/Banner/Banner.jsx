@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Navbar from "../Navbar/Navbar";
 
 const Banner = ({ setSearchText }) => {
-  const [text, setText] = useState(null);
+  const [text, setText] = useState("");
 
   const handleSearch = (text) => {
     setSearchText(text);

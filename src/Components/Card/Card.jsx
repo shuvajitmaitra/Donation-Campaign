@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
-  const { image, title, category } = card;
+  const { id, image, title, category } = card;
   let divClass = ["flex", "flex-col", "pb-4", "space-y-2", "rounded-lg"];
   let imgClass = ["h-[150px]", "w-full", "rounded-t-lg", "mb-2"];
   let categoryClass = ["w-fit", "rounded", "p-1", "mx-4"];
@@ -32,11 +33,11 @@ const Card = ({ card }) => {
   }
 
   return (
-    <div className={divClass.join(" ")}>
+    <Link to={`/donation/${id}`} className={divClass.join(" ")}>
       <img src={image} className={imgClass.join(" ")} />
       <p className={categoryClass.join(" ")}> {category}</p>
       <h2 className={titleClass.join(" ")}>{title}</h2>
-    </div>
+    </Link>
   );
 };
 Card.propTypes = {

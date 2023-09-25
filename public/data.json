@@ -8,7 +8,9 @@
         "title":"Clean water for everyone",
         "image":"https://i.ibb.co/8Dg72LG/Health.png",
         "background": "red",
-        "color": "text-[#0052FF]"
+        "color": "text-[#0052FF]",
+        "description": "Contaminated water and poor sanitation are linked to transmission of diseases such as cholera, diarrhoea, dysentery, hepatitis A, typhoid and polio. Absent, inadequate, or inappropriately managed water and sanitation services expose individuals to preventable health risks.   ",
+        "price": 290
     },
     {
         "id": 2,
@@ -16,8 +18,9 @@
         "title":" Good education",
         "image":"https://i.ibb.co/XsbZTKB/Education.png ",
         "background": "red",
-        "color": "text-[#FF444A26]"
-        
+        "color": "text-[#FF444A26]",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+       "price": 290
     },
     {
   
@@ -26,7 +29,9 @@
         "title":"Use Clothing Drive",
         "image":" https://i.ibb.co/NZdCFzR/3.png",
         "background": "red",
-        "color": "text-[#79C23F26]"
+        "color": "text-[#79C23F26]",
+        "description": "Double the impact with just one act! By donating your unwanted clothes to charity, you’re not only helping the environment, you’re also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to. So, if you have a cause that’s close to your heart, it’s a no-brainer!",
+        "price": 290
     },
     {
   
@@ -35,7 +40,9 @@
         "title":"Better Food for Everyone",
         "image":"  https://i.ibb.co/hDzpz4N/4.png",
         "background": "red",
-        "color": "text-[#F87147]"
+        "color": "text-[#F87147]",
+        "description": "Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and     at the same time, it can improve harmony, friendliness, and trust among residents.",
+        "price": 290
     },
     {
   
@@ -44,7 +51,9 @@
         "title":"Warm Clothing at Winter",
         "image":" https://i.ibb.co/NZdCFzR/3.png",
         "background": "red",
-        "color": "text-[#79C23F26]"
+        "color": "text-[#79C23F26]",
+        "description": "Double the impact with just one act! By donating your unwanted clothes to charity, you’re not only helping the environment, you’re also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to. So, if you have a cause that’s   close to your heart, it’s a no-brainer!",
+        "price": 290
     },
     {
   
@@ -53,7 +62,9 @@
         "title":"Good Food for everyone",
         "image":"  https://i.ibb.co/hDzpz4N/4.png",
         "background": "red",
-        "color": "text-[#F87147]"
+        "color": "text-[#F87147]",
+        "description": "Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and     at the same time, it can improve harmony, friendliness, and trust among residents.",
+        "price": 290
     },
     {
   
@@ -62,8 +73,10 @@
         "title":"Clean water for everyone",
         "image":"  https://i.ibb.co/8Dg72LG/Health.png",
         "background": "bg-[#0052FF26]",
-         "color": "text-[#0052FF]"
-    },
+         "color": "text-[#0052FF]",
+         "description": "Contaminated water and poor sanitation are linked to transmission of diseases such as cholera, diarrhoea, dysentery, hepatitis A, typhoid and polio. Absent, inadequate, or inappropriately managed water and sanitation services expose individuals to preventable health     risks.",
+        "price": 290
+        },
     {
   
         "id": 8, 
@@ -71,7 +84,9 @@
         "title":"Education for everyone",
         "image":" https://i.ibb.co/XsbZTKB/Education.png ",
         "background": "bg-[#FF444A26]",
-        "color": "text-[#FF444A26]"
+        "color": "text-[#FF444A26]",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students    and challenge them to reach their full potential.",
+       "price": 290
     },
     {
   
@@ -80,7 +95,9 @@
         "title":"Good Education",
         "image":"  https://i.ibb.co/64pTQMz/9.png",
         "background": "red",
-        "color": "text-[#FF444A26]"
+        "color": "text-[#FF444A26]",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students    and challenge them to reach their full potential.",
+        "price": 290
     },
     {
   
@@ -89,7 +106,9 @@
         "title":"Clean water for everyone",
         "image":"https://i.ibb.co/8Dg72LG/Health.png",
         "background": "red",
-        "color": "text-[#0052FF]"
+        "color": "text-[#0052FF]",
+        "description": "Contaminated water and poor sanitation are linked to transmission of diseases such as cholera, diarrhoea, dysentery, hepatitis A, typhoid and polio. Absent, inadequate, or inappropriately managed water and sanitation services expose individuals to preventable health risks.   ",
+        "price": 290
     },
     {
   
@@ -98,7 +117,9 @@
         "title":"Warm Clothing at Winter",
         "image":" https://i.ibb.co/NZdCFzR/3.png",
         "background": "red",
-        "color": "text-[#79C23F26]"
+        "color": "text-[#79C23F26]",
+        "description": "Double the impact with just one act! By donating your unwanted clothes to charity, you’re not only helping the environment, you’re also supporting brilliant causes. In fact, donated clothing is one of the biggest sources of funds raised by charities. The best part is that you can choose which charity you want to give that coat, dress or top to. So, if you have a cause that’s   close to your heart, it’s a no-brainer!",
+        "price": 290        
     },
     {
   
@@ -107,6 +128,8 @@
         "title":"Good Food for everyone",
         "image":"  https://i.ibb.co/hDzpz4N/4.png",
         "background": "red",
-        "color": "text-[#F87147]"
+        "color": "text-[#F87147]",
+        "description": "Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.",
+        "price": 290
     }
 ]
