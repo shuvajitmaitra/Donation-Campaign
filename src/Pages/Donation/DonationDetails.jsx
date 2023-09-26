@@ -18,12 +18,16 @@ const DonationDetails = () => {
     const isExist = donationId.find((donationId) => donationId === id);
 
     if (!isExist) {
-      Swal.fire("Donation Successfully!!", " ", "success");
+      Swal.fire(
+        "Donation Successfully!!",
+        "Thanks! You are a very kind-hearted person...",
+        "success"
+      );
     } else {
       Swal.fire({
-        icon: "error",
+        icon: "info",
         title: "Already Donated",
-        text: " ",
+        text: "Thank you so much for donating...",
       });
     }
     saveDonationId(idInt);
@@ -33,7 +37,7 @@ const DonationDetails = () => {
     <div className="max-w-screen-lg mx-auto">
       <Navbar></Navbar>
       <div className="relative">
-        <img src={donation.image} className="w-full h-[70vh]" />
+        <img src={donation.image} className="w-full h-[90vh]" />
         <div className="absolute w-full py-10 px-6 bottom-0 bg-black bg-opacity-50">
           <button
             onClick={() => handleDonation(idInt)}

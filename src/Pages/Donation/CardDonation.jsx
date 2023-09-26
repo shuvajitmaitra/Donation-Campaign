@@ -14,10 +14,10 @@ const CardDonation = ({ donation }) => {
   } = donation;
   return (
     <div className="flex rounded-lg " style={{ background: card_bg }}>
-      <div className="">
-        <img src={image} className=" rounded-l-lg h-full " />
+      <div className="flex-1">
+        <img src={image} className=" rounded-l-lg  h-full" />
       </div>
-      <div className="p-4 space-y-2">
+      <div className="p-4 space-y-2 flex-1">
         <p
           className="w-fit rounded p-1  font-medium"
           style={{ color: text_btn_bg, background: category_bg }}

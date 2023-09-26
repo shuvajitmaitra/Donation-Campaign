@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex gap-6">
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/donations"}>Donation</NavLink>
-        <NavLink to={"/statistic"}>Statistic</NavLink>
+        <NavLink to={"/statistics"}>Statistics</NavLink>
       </div>
     </div>
   );

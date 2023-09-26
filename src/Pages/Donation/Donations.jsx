@@ -28,6 +28,13 @@ const Donations = () => {
   return (
     <div className="max-w-screen-lg mx-auto ">
       <Navbar></Navbar>
+
+      {donations.length <= 0 && (
+        <div className="h-[80vh] flex justify-center items-center font-bold text-4xl text-center">
+          <h1>No Donation Successful Yet...</h1>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
         {showAll
           ? donations.map((donation) => (
