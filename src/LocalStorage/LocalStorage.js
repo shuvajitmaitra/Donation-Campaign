@@ -1,3 +1,5 @@
+// getting id in the form of array form local storage..........................
+
 const getStoredDonationId = () => {
     const donationId = localStorage.getItem('donation-id')
     if (donationId) {
@@ -8,6 +10,7 @@ const getStoredDonationId = () => {
     }
 }
 
+// save data on the local storage..........................
 const saveDonationId = (id) => {
     const donationId = getStoredDonationId()
     const isExist = donationId.find(donation => donation === id)

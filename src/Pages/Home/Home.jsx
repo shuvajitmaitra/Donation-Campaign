@@ -6,8 +6,11 @@ import Card from "../../Components/Card/Card";
 const Home = () => {
   const [searchText, setSearchText] = useState("");
   const [info, setInfo] = useState([]);
+
+  // data load form json..........................
   const data = useLoaderData();
 
+  // searching functionalities.....................
   useEffect(() => {
     filteredData();
   }, [searchText]);
@@ -23,7 +26,7 @@ const Home = () => {
     <div>
       <div>
         <Banner setSearchText={setSearchText}></Banner>
-        <div className="max-w-screen-lg px-6 md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
+        <div className="max-w-screen-lg px-6 md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-16">
           {info.map((card) => (
             <Card key={card.id} card={card}></Card>
           ))}

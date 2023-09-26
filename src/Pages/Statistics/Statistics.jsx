@@ -6,25 +6,29 @@ import { getStoredDonationId } from "../../LocalStorage/LocalStorage";
 const Statistics = () => {
   const data = [];
 
+  //charts showing calculation is here................
+
   const totalCategory = useLoaderData();
   const donatedCategory = getStoredDonationId();
 
-  const myObject = { name: "Remaining Donations" };
-  const myObject2 = { name: "Provided Donations" };
+  const totalDonation = { name: "Total Donation" };
+  const yourDonation = { name: "Your Donation" };
 
   const totalLength = totalCategory.length;
   const donationLength = donatedCategory.length;
-  const remaining = totalLength - donationLength;
+  const remainingDonation = totalLength - donationLength;
 
-  myObject.value = remaining;
-  myObject2.value = donationLength;
+  totalDonation.value = remainingDonation;
+  yourDonation.value = donationLength;
 
-  data.push(myObject);
-  data.push(myObject2);
+  data.push(totalDonation);
+  data.push(yourDonation);
 
-  console.log(data);
-
+  //Color list---------------------------
   const COLORS = ["#FF444A", "#00C49F"];
+
+  // percentage showing functionalities................
+
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
     cx,
@@ -50,11 +54,16 @@ const Statistics = () => {
       </text>
     );
   };
+
+  // main jsx start form here ................
   return (
     <div className="md:max-w-screen-lg mx-auto">
+      {/* Navar div...................... */}
       <div>
         <Navbar></Navbar>
       </div>
+
+      {/* pie chart div...................... */}
       <div className="h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart width={380} height={380}>
@@ -75,6 +84,7 @@ const Statistics = () => {
                 />
               ))}
             </Pie>
+            {/* legends are here............. */}
             <Legend />
           </PieChart>
         </ResponsiveContainer>

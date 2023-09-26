@@ -13,7 +13,7 @@ const Card = ({ card }) => {
     >
       <img src={image} className="h-[150px] w-full rounded-t-lg mb-2" />
       <p
-        className="w-fit rounded p-1 mx-4 font-medium"
+        className="w-fit rounded py-1 px-2 mx-4 font-medium"
         style={{ color: text_btn_bg, background: category_bg }}
       >
         {" "}
